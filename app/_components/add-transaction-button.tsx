@@ -11,7 +11,7 @@ const AddTransactionButton = () => {
   return (
     <>
       <Button
-        className="rounded-full bg-green-500 font-bold"
+        className="mt-auto justify-between rounded-full bg-green-500 font-bold"
         onClick={() => setDialogIsOpen(true)}
       >
         Adicionar Transação

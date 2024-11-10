@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { ptBr } from "date-fns/locale";
+import { ptBR } from "date-fns/locale";
 import { Calendar as CalendarIcon } from "lucide-react";
 
 import { cn } from "@/app/_lib/utils";
@@ -44,7 +44,7 @@ export const DatePicker = ({ value, onChange }: DatePickerPorps) => {
           selected={value}
           onSelect={onChange}
           initialFocus
-          locale={ptBr}
+          locale={ptBR}
         />
       </PopoverContent>
     </Popover>
