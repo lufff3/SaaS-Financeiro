@@ -5,13 +5,13 @@ import { useState } from "react";
 import UpsertTransactionDialog from "./upsert-transacction-dialog";
 import { Button } from "./ui/button";
 
-const AddTransactionBurron = () => {
+const AddTransactionButton = () => {
   const [dialogIsOpen, setDialogIsOpen] = useState(false);
 
   return (
     <>
       <Button
-        className="rounded-full font-bold"
+        className="rounded-full bg-green-500 font-bold"
         onClick={() => setDialogIsOpen(true)}
       >
         Adicionar Transação
@@ -25,4 +25,4 @@ const AddTransactionBurron = () => {
   );
 };
 
-export default AddTransactionBurron;
+export default AddTransactionButton;
